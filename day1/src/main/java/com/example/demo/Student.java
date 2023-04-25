@@ -23,7 +23,6 @@ public class Student {
   return sid;
  }
 
-
  public void setSid(int sid) {
   this.sid = sid;
  }
