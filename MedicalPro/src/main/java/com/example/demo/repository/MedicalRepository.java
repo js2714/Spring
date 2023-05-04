@@ -8,4 +8,10 @@ import com.example.demo.Medical.Medical;
 
 public interface MedicalRepository extends JpaRepository<Medical, Integer> {
 
+	Medical findBypname(String pname);
+	
+
+	
+	
+
 }

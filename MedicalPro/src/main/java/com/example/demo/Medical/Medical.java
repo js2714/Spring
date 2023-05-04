@@ -6,7 +6,7 @@ import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 
 @Entity
-@Table(name = "Medical")
+@Table(name = "paitentdatabase")
 public class Medical {
 	@Id
 	private int pserialno;
